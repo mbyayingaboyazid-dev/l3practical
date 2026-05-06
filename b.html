@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Notice Board</title>
+</head>
+<body>
+
+<h2>Notice Board</h2>
+
+<p id="notice">No announcement yet.</p>
+
+<button onclick="updateNotice()">Post Announcement</button>
+
+<script>
+function updateNotice(){
+    let notice = document.getElementById("notice");
+    notice.innerHTML = "Tomorrow all students must report at 7:00 AM for General Cleaning.";
+    notice.style.color = "blue";
+}
+</script>
+
+</body>
+</html>
